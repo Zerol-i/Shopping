@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?44ru47');
+    src: url('../fonts/icomoon.eot?44ru47#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?44ru47') format('truetype'), url('../fonts/icomoon.woff?44ru47') format('woff'), url('../fonts/icomoon.svg?44ru47#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.header .ms {
+    position: absolute;
+    left: 188px;
+    top: 39px;
+    padding: 3px 0 3px 14px;
+    border-left: 1px solid #b1191a;
+}
+
+.ms_l ul li {
+    float: left;
+}
+
+.ms_l ul li a {
+    height: 46px;
+    line-height: 48px;
+    padding: 0 28px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.ms_r ul li {
+    float: left;
+}
+
+.ms_r ul li a {
+    height: 46px;
+    line-height: 46px;
+    padding: 0 28px;
+    font-size: 14px;
+}
+
+.ms_r ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\ea52';
+    padding-left: 5px;
+}
+
+.ms_bd ul li {
+    float: left;
+    position: relative;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    margin-top: 13px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+
+.ms_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.ms_bd ul li:hover {
+    border: 1px solid #b1191a;
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.ms_bd_b {
+    text-align: left;
+    padding-left: 12px;
+}
+
+.ms_bd_b .intro {
+    font-size: 14px;
+    font-family: '宋体';
+}
+
+.price .now::before {
+    font-family: 'icomoon';
+    content: '\e900';
+    font-size: 14px;
+    color: #ed6b71;
+}
+
+.price .now em {
+    font-size: 22px;
+    color: #ed6b71;
+}
+
+.price .before {
+    font-size: 14px;
+    color: #cbcbcb;
+    text-decoration: line-through;
+}
+
+.price .before::before {
+    font-family: 'icomoon';
+    content: '\e900';
+    font-size: 14px;
+    color: #cbcbcb;
+}
+
+.ms_bd_b .sold {
+    font-size: 14px;
+}
+
+.sold .num {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.sold .left {
+    width: 100px;
+    height: 11px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color: #ed282e;
+    border: 1px solid #ed282e;
+}
+
+.sold .right {
+    width: 15px;
+    height: 11px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: 1px solid #ed282e;
+}
+
+.sold span {
+    font-size: 14px;
+}
+
+.sold em {
+    color: #ed282e;
+}
+
+.ms_bd .buy {
+    position: absolute;
+    bottom: 0;
+    width: 289px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #b1191a;
+}
+
+.page {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.page_num a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #cccccc;
+    background-color: #f7f7f7;
+}
+
+.page_num .pn_prev,
+.page_num .pn_next {
+    width: 83px;
+}
+
+.page_num .current,
+.page_num .dotted {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.page_skip input {
+    width: 46px;
+    height: 36px;
+    border: 1px solid #cccccc;
+    background-color: #f7f7f7;
+    text-align: center;
+    transition: all 0.4s;
+}
+
+.page_skip input:focus {
+    width: 76px;
+    border: 1px solid #6569a8;
+}
+
+.page_skip button {
+    width: 54px;
+    height: 36px;
+    border: 1px solid #cccccc;
+    background-color: #f7f7f7;
+}
